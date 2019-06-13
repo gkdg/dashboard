@@ -1,0 +1,574 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    box-sizing: border-box;
+    transition-duration: 0.3s;
+    background-color: #F5F6FA;
+    position: relative;
+    overflow: hidden;
+}
+
+.navtop{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 0px ridge lightgray;
+    color: #405B63;
+    height: 78px;
+    box-shadow: 1px 7px 5px 0px rgba(0,0,0,0.16);
+    i{
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    h1{
+        font-family:sans-serif;
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    .navtopright{
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .bellz{
+            position: relative;
+            .fa-circle{
+                position: absolute;
+                top: 0%;
+                right: 0;
+                font-size: 10px;
+                color: #E77060;
+            }
+
+        }
+    }
+    .dropdown1{
+        padding-right: 20px;
+        h3{
+            color: #E77060;
+            font-size: 10px;
+            text-align: left;
+            font-family: 'Open Sans', sans-serif;
+            padding-left: 5px;
+        }
+        select{
+            font-family:'Raleway', sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    }
+}
+.navleft{
+    position: absolute;
+    top: 50px;;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 78px;
+    height: 94.8vh;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #FFFFFF;
+    box-shadow: 11px 0px 5px 0px rgba(0,0,0,0.16);
+    .navlefttop4button{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: stretch;
+        height: 520px;
+        width: 65px;
+        a:hover{
+            background-color: #DFDEDB;
+            border-radius: 10px;
+        }
+    }
+    .navleftgear{
+        width: 76px;
+        text-align: center;
+        background-color: #43A6D4;
+        padding-top: 10px;
+    }
+    .house{
+        background-color: #E77060;
+        border-radius: 5px;
+        box-shadow: 11px 10px 7px -3px rgba(231,112,96,0.3);
+    }
+    .gear{
+        background-color: #43A6D4;
+        bottom: 0;
+        right: 5px;
+    }
+
+}
+.databoard{
+    position: absolute;
+    width: 1250px;
+    height: 87%;
+    margin: 0;
+    top: 18%;
+    left: 10%;
+    .metrics{
+        display: flex;
+        justify-content: space-between;
+
+        .metricsdate{
+            a{
+                color: #E77060;
+                text-decoration: none;
+                padding: 5px;
+                font-family: 'Lato', sans-serif; 
+                font-size: 18px;
+            }
+            .week{
+                background-color: #E77060;
+                color: white;
+                box-shadow: 11px 10px 7px -3px rgba(231,112,96,0.3);
+                border-radius: 6px;
+            }
+            a:hover{
+                background-color: #E77060;
+                color: white;
+                box-shadow: 11px 10px 7px -3px rgba(231,112,96,0.3);
+                border-radius: 6px;
+            }
+        }
+        .metricscurrency{
+            a{
+                color: #E77060;
+                text-decoration: none;
+                padding: 5px;
+                font-family: 'Lato', sans-serif; 
+                font-size: 18px;
+            }
+            .usd{
+                background-color: #E77060;
+                color: white;
+                border-radius: 6px;
+                box-shadow: 11px 10px 7px -3px rgba(231,112,96,0.3);
+            }
+            a:hover{
+                background-color: #E77060;
+                color: white;
+                border-radius: 6px;
+                box-shadow: 11px 10px 7px -3px rgba(231,112,96,0.3);
+            }
+        }
+    }
+
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 25%;
+    .box11{
+        background-image: url("../images/icons/Path1.png");
+    }
+    .box12{
+        background-image: url("../images/icons/Path2.png");
+    }
+    .box13{
+        background-image: url("../images/icons/Path3.png");
+    }
+    .box14{
+        background-image: url("../images/icons/Path4.png");
+    }
+    .box11, .box12, .box13, .box14{
+        width: 261px;
+        height: 146px;
+        background-color:white;
+        background-repeat: no-repeat;
+        background-size: 310px 69px;
+        background-position: right;
+        font-family:'Lato', sans-serif; 
+        color: #E77060;
+        padding-left: 2%;
+        padding-top: 1%;
+        p{
+            font-family: 'Dosis', sans-serif;
+            font-size: 32px;
+            color: #405B63;
+            padding-top: 1%;
+        }
+        h4{
+            display: flex;
+            align-items: center
+        }
+    }
+    
+}
+
+.box2{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    height: 536px;
+    .box21{
+        width: 927px;
+        height: 536;
+        background-color: white;
+        background-image: url("../images/icons/Path 22.png");
+        background-repeat: no-repeat;
+        background-size: 800px 200px;
+        background-position: center;
+
+        .dropDown2{
+            padding-top: 20px;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            select{
+                font-family: 'Lato', sans-serif;
+                font-weight: bolder;
+                font-size: 19px;                
+            }
+        }
+        .columnLeft{
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            padding-left: 20px;
+            padding-top: 30px;
+            p{
+                padding-top: 50px;
+                border-bottom: 1px solid #DFDEDB;
+            }
+        }
+        .rowBottom{
+            display: flex;
+            justify-content: space-between;
+            padding-left: 120px;
+            padding-right: 60px;
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            color: #C9C9C9;
+        }
+        h4{
+            position: absolute;
+            top: 210px;
+            left: 380px;
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            border: 1px solid #707070;
+            width: 180px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 1px 3px 5px 2px rgba(0,0,0,0.16);
+        }
+    }
+    .box22{
+        width: 285px;
+        height: 536px;
+        background-color: white;
+        position: relative;
+        .dropDown3{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            select{
+                font-family: 'Lato', sans-serif;
+                font-size: 19px;
+                font-weight: bold;
+            }
+        }
+        .chart{
+            position: relative;
+            .path5{
+                position: absolute;
+                top: 30px;
+                left: 45px;
+            }
+            .path6{
+                position: absolute;
+                top: 117px;
+                left: 63px;
+                z-index: 1;
+            }
+            .path7{
+                position: absolute;
+                z-index: 2;
+                top: 31px;
+                left: 32px;
+            }
+            p{
+                font-family: 'Dosis', sans-serif;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .p1{
+                position: absolute;
+                top: 115px;
+                left: 53px;
+                z-index: 3;
+                color: white;
+            }
+            .p2{
+                position:absolute;
+                top: 68px;
+                left: 182px;
+                z-index: 3;
+                color: white;
+            }
+            .p3{
+                position:absolute;
+                top: 183px;
+                left: 152px;
+                z-index: 3;
+                color: white;
+            }
+            .pTotal{
+                position: absolute;
+                top: 100px;
+                left: 107px;
+                text-align: center;
+                color: #C9C9C9;
+                span{
+                    display: block;
+                    color: #405B63;
+                    font-size: 18px;
+                }
+            }
+
+        }
+        .productCat{
+            position: absolute;
+            bottom: 60px;
+            left: 60px;
+            width: 160px;
+            color: #919191;
+            font-family: 'Lato', sans-serif;
+            border-bottom: 1px solid gray;
+            li{
+                padding-bottom: 20px;
+            }
+        }
+        .viewDetails{
+            position: absolute;
+            bottom: 20px;
+            left: 90px;
+            color: #E77060;
+        }
+
+    }
+}
+.box3{
+    position: absolute;
+    right: 30px;
+    top: 128px;
+    width: 396px;
+    div{
+        background-color: white;
+        border-radius: 6px;
+        margin-bottom: 31px;
+        height: 122px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-left: 3px solid red;
+        img{
+            padding-left: 10px;
+        }
+        p{
+            text-align: left;
+            padding-left: 50px;
+            font-size: 24px;
+            font-family: 'Lato', sans-serif;
+            font-weight: bold;
+            color: #405B63;
+        }
+        span{
+            display: block;
+            color: #919191;
+            font-size: 18px;
+            font-weight: none;
+
+        }
+    }
+    .dropDown4{
+        background-color: transparent;
+        border: none;
+        margin-bottom: 0px;
+        height: 90px;
+        .dropSelect{
+            color: #405B63;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: transparent;
+        }
+    }
+}
+@media screen and (max-width: 1280px) {
+    .navtop{
+        height: 45px;
+        .navtopright{
+            width: 250px;
+        }
+    }
+    .navleft{
+        height: 565px;
+        width: 68px;
+        .navleftgear{
+            width: 67px;
+        }
+    }
+    .databoard{
+        width: 875px;
+        height: 262px;
+        .metrics{
+            .metricsdate{
+                a{
+                    font-size: 15px;
+                }
+            }
+            .metricscurrency{
+                a{
+                    font-size: 15px;
+                }
+
+            }
+        }
+        .box11, .box12, .box13, .box14{
+            width: 180px;
+            height: 80px;
+            background-size: 240px 50px;
+            p{
+                font-size: 25px;
+                padding-left: 2px;
+            }
+        }
+    }
+    .box2{
+        height: 300px;
+        padding-top: 40px;
+        .box21{
+            width: 647px;
+            height: 340px;
+            background-size: 464px 103px;
+            h4{
+                width: 100px;
+                font-size: 13px;
+                top: 110px;
+                left: 420px;
+
+            }
+            .dropDown2{
+                padding-top: 10px;
+                padding-left: 15px;
+                select{
+                    font-size: 15px;
+                }
+            }
+            .columnLeft{
+                font-size: 15px;
+                padding-top: 0px;
+                p{
+                    padding-top: 28px;
+                    margin-right: 25px;
+                }
+            }
+            .rowBottom{
+                padding-left: 77px;
+                padding-right: 30px;
+                font-size: 15px;
+            }
+        }
+        .box22{
+            width: 198px;
+            height: 340px;
+            .dropDown3{
+                padding-top: 12px;
+                padding-bottom: 12px;
+                select{
+                    font-size: 15px;
+                }
+            }
+            .chart{
+                .path5{
+                    height: 140px;
+                    top: 25px;
+                    left: 30px;
+                }
+                .path6{
+                    width: 138px;
+                    top: 87px;
+                    left: 38px;
+                }
+                .path7{
+                    height: 140px;
+                    left: 15px;
+                    top: 22px;
+                }
+                p{
+                    font-size: 12px;
+                }
+                .p1{
+                    top: 87px;
+                    left: 34px;
+                }
+                .p2{
+                    top: 59px;
+                    left: 135px;
+                }
+                .p3{
+                    top: 137px;
+                    left: 101px;
+                }
+                .pTotal{
+                    top: 72px;
+                    left: 68px;
+                }
+
+            }
+            .productCat{
+                font-size: 12px;
+                left: 40px;
+                width: 131px;
+                bottom: 50px;
+                li{
+                    padding-bottom: 8px;
+                }
+                .liMain{
+                    padding-bottom: 15px;
+                }
+                
+            }
+            .viewDetails{
+                bottom: 10px;
+                left: 60px;
+                font-size: 15px;
+            }
+        }
+    }
+    .box3{
+        width: 200px;
+        top: 90px;
+        .dropDown4{
+            height: 45px;
+            padding-bottom: 14px;
+            .dropSelect{
+                font-size: 15px;
+            }
+        }
+        div{
+            height: 76px;
+            margin-bottom: 16px;
+            p{
+                padding-left: 20px;
+                font-size: 15px;
+            }
+            img{
+                height: 40px;
+            }
+            span{
+                font-size: 11px;
+            }
+        }
+    }
+}
+
