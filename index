@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.scss">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Lato" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <nav class="navleft">
+        <div class="navlefttop4button">
+            <a class="house" href="https://www.google.com/"><img src="images/icons/house.png" alt=""></a>
+            <a class="box" href="https://www.google.com/"><img src="images/icons/box.png" alt=""></a>
+            <a class="circle" href="https://www.google.com"><img src="images/icons/circle.png" alt=""></a>
+            <a class="tabbox" href="https://www.google.com"><img src="images/icons/tabbox.png" alt=""></a>
+        </div>
+        <div class="navleftgear">
+            <a class="gear" href="https://www.google.com"><img class="gear" src="images/icons/gear.png" alt=""></a>
+        </div>
+    </nav>
+    <nav class="navtop">
+        <i class="fas fa-th-large"></i>
+        <h1>DASHBOARD</h1>
+        <div class="navtopright">
+            <i class="far fa-comment-alt"></i>
+            <div class="bellz">
+                <i class="far fa-bell"></i>
+                <i class="fas fa-circle"></i>
+            </div>
+            <div class="dropdown1">
+                <select name="John" id="dropdowntop">
+                    <option value="account">John Doe Huarez Jr.</option>
+                    <option value="account">Account</option>
+                    <option value="preferences">Prefrences</option>
+                    <option value="signout">Sign out</option>
+                </select>
+                <h3>Manager</h3>                
+            </div>
+        </div>
+
+    </nav>
+    <main class="databoard">
+        <section class="metrics">
+            <div class="metricsdate">
+                <a class="week" href="https://www.google.com/">Week</a>
+                <a href="https://www.google.com/">Month</a>
+                <a href="https://www.google.com/">Year</a>
+                <a href="https://www.google.com/">All Time</a>
+            </div>
+            <div class="metricscurrency" >
+                <a class="usd" href="https://www.google.com/">USD</a>            
+                <a href="https://www.google.com/">EUR</a>            
+            </div>
+        </section>
+        <section class="box1">
+            <article class="box11">
+                <h4>
+                    <img src="images/icons/dolar.png" alt="">
+                    Revenue
+                </h4>
+                <p>$715,380</p>
+            </article>
+            <article class="box12">
+                <h4>
+                    <img src="images/icons/cart.png" alt="">
+                    Avg Order Value
+                </h4>
+                <p>$112.95</p>
+            </article>
+            <article class="box13">
+                <h4>
+                    <img src="images/icons/network.png" alt="">
+                    Quantity
+                </h4>
+                <p>78,496</p>
+            </article>
+            <article class="box14">
+                <h4>
+                    <img src="images/icons/linear.png" alt="">
+                    Conversion Rate
+                </h4>
+                <p>4.36%</p>
+            </article>
+        </section>
+        <section class="box2">
+            <article class="box21">
+                <div class="dropDown2">
+                    <select name="totalSales">
+                        <option value="account">Total Sales</option>
+                        <option value="account">Quarterly</option>
+                        <option value="preferences">Monthly</option>
+                        <option value="signout">Daily</option>
+                    </select>
+                </div>
+                <div class="columnLeft">
+                    <p>$10,000</p>
+                    <p>$9,000</p>
+                    <p>$8,000</p>
+                    <p>$7,000</p>
+                    <p>$6,000</p>
+                </div>
+                <div class="rowBottom">
+                    <p>31 Mar</p>
+                    <p>01 Apr</p>
+                    <p>02 Apr</p>
+                    <p>03 Apr</p>
+                    <p>04 Apr</p>
+                </div>
+                <h4>$9185.62 > </h4>
+            </article>
+            <article class="box22">
+                <div class="dropDown3">
+                    <select name="profitMargin">
+                        <option value="account">Profit Margin</option>
+                        <option value="account">Quarterly</option>
+                        <option value="preferences">Monthly</option>
+                        <option value="signout">Daily</option>
+                    </select>
+                </div>
+                <div class="chart">
+                    <img class="path7" src="images/icons/Path7.png" alt="">
+                    <img class="path6" src="images/icons/path6.png" alt="">
+                    <img class="path5"  src="images/icons/path5.png" alt="">
+                    <p class="p1">27%</p>
+                    <p class="p2">35%</p>
+                    <p class="p3">38%</p>
+                    <p class="pTotal">TOTAL <span>$220,655</span></p>
+                </div>
+                <div class="productCat">
+                    <ul>
+                        <li>Tyres</li>
+                        <li>Spare Parts</li>
+                        <li class="liMain">Maintainance</li>
+                    </ul>
+                </div>
+                <div class="viewDetails">
+                    <p>View Details</p>
+                </div>
+
+
+            </article>
+
+
+        </section>
+    </main>
+        <section class="box3">
+                <div class="dropDown4">
+                    <select class="dropSelect" name="bestSelling">
+                        <option value="account">Best Selling</option>
+                        <option value="account">Worst Selling</option>
+                        <option value="preferences">Medium Selling</option>
+                        <option value="signout">Selling</option>
+                    </select>
+                </div>
+                <div class="wrangler">
+                    <img height="60px" src="images/icons/tyre.png" alt="">
+                    <p>Wrangler <span>2520 Units</span></p>
+                </div>
+                <div class="assurance">
+                    <img height="60px" src="images/icons/tyre.png" alt="">
+                    <p>Assurance <span>1962 Units</span></p>
+                </div>
+                <div class="efficientGrip">
+                    <img height="60px" src="images/icons/tyre.png" alt="">
+                    <p>Efficient Grip <span>1763 Units</span></p>
+                </div>
+                <div class="eagle">
+                    <img height="60px" src="images/icons/tyre.png" alt="">
+                    <p>Eagle <span>1260 Units</span></p> 
+                </div>
+                <div class="excellence">
+                    <img height="60px" src="images/icons/tyre.png" alt="">
+                    <p>Excellence <span>998 Units</span></p>
+                </div>
+    
+        </section>
+    
+</body>
+</html>
